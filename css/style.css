@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #f5900b;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
@@ -64,9 +68,8 @@ body {
 
 /* My Projects container */
 
-.my-project-container, 
 .my-education-container {
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
 }
 
 .My-Projects-list {
@@ -104,9 +107,9 @@ body {
 
 /* My Work Experience container */
 
-/* .my-work-experience-container {
-  margin: 0 0 45px 0;
-} */
+.my-work-experience-container {
+  margin: 0 0 40px 0;
+}
 
 .my-work-experience-company-block {
   margin: 0 0 15px 0;
@@ -122,7 +125,7 @@ body {
 }
 
 .my-work-experience-company {
-  color: #4c9bf4;
+  color: var(--accent-color);
 }
 
 .my-work-experience-period {
@@ -157,7 +160,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #4c9bf4;
+  color: var(--accent-color);
   margin: 0 0 10px 0;
 }
 
@@ -177,7 +180,7 @@ body {
 /* Sidebar-container */
 
 .sidebar-container {
-  background-color: #595b41;
+  background-color: #274063;
   width: 370px;
   padding: 40px 0px;
 }
@@ -224,7 +227,7 @@ body {
 
 .Tech-Skills-iten,
 .Soft-Skills-iten {
-  color: #4c9bf4;
+  color: var(--accent-color);
 }
 
 .Tech-Skills-iten-text,
