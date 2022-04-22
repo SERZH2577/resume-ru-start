@@ -10,7 +10,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1107px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ body {
 }
 
 .about-me-description {
-  width: 400px;
+  width: 550px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -141,11 +141,11 @@ body {
   color: #000;
 }
 
-.my-work-experience-duties {
+.My-Projects-item-duties, .my-work-experience-duties {
   padding: 0 0 0 18px;
 }
 
-.my-work-experience-duty {
+.My-Projects-item-duty, .my-work-experience-duty {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
